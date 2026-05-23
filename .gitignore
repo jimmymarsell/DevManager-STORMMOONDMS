@@ -28,5 +28,8 @@ logs/
 symlinks/
 versions/
 
+# 文档
+docs/
+
 # Go 相关
 vendor/
