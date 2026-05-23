@@ -1,0 +1,24 @@
+# 编译生成的可执行文件
+*.exe
+*.out
+*.app
+
+# 编译生成的目标文件
+*.o
+*.obj
+*.elf
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*~
+
+# IDE 配置文件
+.vscode/
+.idea/
+*.suo
+*.user
+
+# 其他
+docs/
