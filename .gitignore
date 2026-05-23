@@ -2,6 +2,7 @@
 *.exe
 *.out
 *.app
+stormmoondms-*
 
 # 编译生成的目标文件
 *.o
@@ -20,5 +21,9 @@
 *.suo
 *.user
 
-# 其他
-docs/
+# 运行时生成的文件
+config.json
+logs/
+
+# Go 相关
+vendor/
