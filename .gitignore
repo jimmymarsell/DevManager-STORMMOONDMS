@@ -23,7 +23,10 @@ stormmoondms-*
 
 # 运行时生成的文件
 config.json
+config.json.bak
 logs/
+symlinks/
+versions/
 
 # Go 相关
 vendor/

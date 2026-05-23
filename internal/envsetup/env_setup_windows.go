@@ -55,7 +55,7 @@ func SetupWindowsEnv(installDir string) error {
 	}
 	newPathValue := strings.Join(pathParts, ";")
 
-	if err := k.SetStringValue("PATH", newPathValue); err != nil {
+	if err := k.SetExpandStringValue("PATH", newPathValue); err != nil {
 		return fmt.Errorf("设置 PATH 失败: %v", err)
 	}
 
